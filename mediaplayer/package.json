@@ -2,7 +2,7 @@
   "name": "@alfreddiazc/mediaplayer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/media.js",
   "dependencies": {
     "typescript": "^4.3.4"
   },

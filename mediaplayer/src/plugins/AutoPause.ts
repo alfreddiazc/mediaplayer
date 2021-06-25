@@ -1,4 +1,3 @@
-
 import MediaPlayer from '../media'
 
 class AutoPause{
