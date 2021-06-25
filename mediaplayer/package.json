@@ -1,0 +1,29 @@
+{
+<<<<<<< HEAD
+  "name": "alfred/mediaplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc src/**/*.ts --outDir lib",
+=======
+  "name": "@sparragus/platzimediaplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/MediaPlayer.js",
+  "scripts": {
+    "build": "tsc src/**/*.ts src/plugins/*.ts src/plugins/**/*.ts --outDir lib",
+>>>>>>> origin
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+<<<<<<< HEAD
+    "typescript": "^4.3.4"
+=======
+    "typescript": "^3.5.3"
+>>>>>>> origin
+  }
+}
