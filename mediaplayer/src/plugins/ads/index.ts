@@ -1,4 +1,4 @@
-import MediaPlayer from '../../MediaPlayer';
+import MediaPlayer from '../../media';
 import Ads, { Ad } from './Ads';
 
 class AdsPlugin {
@@ -17,7 +17,7 @@ class AdsPlugin {
   run(player: MediaPlayer) {
     this.player = player;
     this.player.container.appendChild(this.adsContainer);
-    this.media = this.player.media;
+    this.media = this.player.video;
     this.media.addEventListener('timeupdate', this.handleTimeUpdate);
   }
 

@@ -1,8 +1,8 @@
 
- import MediaPlayer from './media'
- import AutoPlay from './plugins/AutoPlay'
- import AutoPause from './plugins/AutoPause'
- import Ads from './plugins/ads'
+ import MediaPlayer from '@alfreddiazc/mediaplayer'
+ import AutoPlay from '@alfreddiazc/mediaplayer/lib/plugins/AutoPlay'
+ import AutoPause from '@alfreddiazc/mediaplayer/lib/plugins/AutoPause'
+ import Ads from '@alfreddiazc/mediaplayer/lib/plugins/ads'
 
 const video = document.querySelector("video");
 const play: HTMLElement = document.querySelector("#play");  

@@ -8,7 +8,6 @@
     "platzi"
   ],
   "scripts": {
-<<<<<<< HEAD:website/package.json
     "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html "
   },
   "devDependencies": {
@@ -17,19 +16,8 @@
   },
   "browserslist": [
     "last 1 Chrome version"
-  ]
-=======
-    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.3",
-    "typescript": "^3.5.3"
-  },
-  "browserslist": [
-    "last 1 Chrome version"
   ],
   "dependencies": {
-    "@sparragus/platzimediaplayer": "^1.0.0"
+    "@alfreddiazc/mediaplayer": "^1.0.0"
   }
->>>>>>> origin:package.json
 }
